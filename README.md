@@ -240,7 +240,6 @@ flutter build web        # Web
 ### 6.1 Video Demo (5–10 minutes)
 
 - **Video link**: <https://drive.google.com/file/d/1OG1TUGSOI66jcxSKlduEaioTrM61OVVC/view?usp=sharing>
-- Short note on what is shown: <one‑line summary of the demo>
 
 ### 6.2 UI / UX Designs (Figma)
 
