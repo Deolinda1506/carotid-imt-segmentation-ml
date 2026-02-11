@@ -181,30 +181,8 @@ High‑contrast, clinical UI optimized for outdoor/field use, including:
 Add your Figma link here:
 
 ```text
-Figma: <insert Figma URL>
+Figma: <https://www.figma.com/design/fY1l0i5WnqkdSSMTBRJeky/Untitled?node-id=0-1&t=DAaDF5kbsBtMCFkX-1>
 ```
-
-### 4.2 App Interface Screenshots
-
-Place screenshots in a folder like `designs/` or `docs/screens/` and reference them:
-
-```markdown
-![Dashboard](designs/dashboard.png)
-![Live Scan](designs/live_scan.png)
-![Analysis Results](designs/results.png)
-![Referral Sent](designs/referral.png)
-![Profile](designs/profile.png)
-```
-
-### 4.3 Circuit Diagram
-
-If hardware integration (e.g., specific ultrasound probe) is added, document it here:
-
-```text
-Circuit diagram: <link or file path>
-```
-
-Currently the project is **software‑only** and assumes access to carotid ultrasound images/frames.
 
 ---
 
@@ -234,9 +212,6 @@ docker build -t stroklink-api ./api
 docker run -p 8000:8000 stroklink-api
 ```
 
-- Deploy container to:
-  - Azure Container Apps, AWS ECS/Fargate, or GCP Cloud Run.
-
 ### 5.3 Flutter App
 
 - Configure API base URL and environment variables.
@@ -252,10 +227,6 @@ flutter build ios        # iOS
 flutter build web        # Web
 ```
 
-- Distribute to pilot CHWs via:
-  - Internal testing tracks (Play Store / TestFlight), or
-  - Direct APK side‑loading for early trials.
-
 ### 5.4 Monitoring & Logging
 
 - Log:
@@ -270,12 +241,12 @@ flutter build web        # Web
 
 ### 6.1 Video Demo (5–10 minutes)
 
-- **Video link**: `<add video URL here>`
+- **Video link**: `<https://drive.google.com/file/d/1OG1TUGSOI66jcxSKlduEaioTrM61OVVC/view?usp=sharing>`
 - Short note on what is shown: `<one‑line summary of the demo>`
 
 ### 6.2 UI / UX Designs (Figma)
 
-- **Figma file**: `<add Figma design URL here>`
+- **Figma file**: `<https://www.figma.com/design/fY1l0i5WnqkdSSMTBRJeky/Untitled?node-id=0-1&t=DAaDF5kbsBtMCFkX-1>`
 - Notes: `<optional notes about which screens / flows are covered>`
 
 ---
@@ -298,6 +269,5 @@ flutter build web        # Web
   - `lib/main.dart` – StrokeLink Flutter app (UI, navigation, state).
   - `pubspec.yaml` – Flutter dependencies.
   - Platform folders: `android/`, `ios/`, `web/`, `macos/`, `linux/`, `windows/`.
-
----
+Please note that the Flutter app and FastAPI backend are still under development.
 
